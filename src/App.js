@@ -4,12 +4,11 @@ import { Provider } from 'react-redux';
 import './config/reactotron';
 import store from './store';
 
-import TodoList from './TodoList';
+import Routes from './routes';
 
-console.tron.log('testando console do tron');
 const App = () => (
   <Provider store={store}>
-    <TodoList />
+    <Routes />
   </Provider>
 );
 
