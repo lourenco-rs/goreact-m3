@@ -20,7 +20,7 @@
       {
         "argsIgnorePattern": "^_"
       }
-    ],
+    ]
     // incoformidade com o padrão AirBnB
     "react/jsx-one-expression-per-line": off // ou zero 0
     //"react/destructuring-assignment": "off"
